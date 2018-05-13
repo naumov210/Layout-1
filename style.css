@@ -1,12 +1,9 @@
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/*****************Стили автора*****************/
 
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
-
-
-
 
 article,
 aside,
@@ -220,7 +217,6 @@ textarea {
     font: inherit
 }
 
-/*Copyright www.Master-CSS.com*/
 
 .my-logo {
     position: fixed;
@@ -236,7 +232,7 @@ textarea {
     width: 50px;
     height: 50px;
 }
-
+        
 body {
     font: 1em/1.6em sans-serif;
     color: #353535;
@@ -245,24 +241,40 @@ body {
 a {
     text-decoration: none;
 }
-header{
+
+/*****************Стили автора КОНЕЦ *****************/
+
+/*****************МоИ СТИЛИ*****************/
+body{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+}
+header {
     width: 100%;
     background-color: #2c3e50;
     background-size: contain;
 }
-.logo{
-    border: 1px solid #F984E5;
-    width: 7%;
+
+.logo {
+    margin-left: 15.2%;
+    width: 10.3%;
     background-size: cover;
-    color: #fff;
-    background-color: #27ae60;
-    font-family: Roboto-Black;
-    padding: 0.3% 0.5%;
+    color: #27ae60;
+    background-color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0.7% 1.7%;
     box-sizing: border-box;
 }
 
 /*Адаптивность картинок и видео*/
-
 
 img {
     width: 100%;
@@ -272,6 +284,9 @@ img {
 button {
     background-image: url(../images/right_icon.png) no-repeat 100% 100%;
 }
+/*****************МоИ СТИЛИ КОНЕЦ*****************/
+
+/*****************Стили автора*****************/
 
 .vidres {
     height: 0;
@@ -298,6 +313,7 @@ button {
     Укажите своё значение
     margin: 0 auto;
 */
+
 }
 
 /*Колонки - задаём свои, если чего то не хватает
@@ -376,3 +392,18 @@ button {
 }
 
 @media screen and (max-width: 480px) {}
+
+/*****************Стили автора КОНЕЦ *****************/
+
+/*layout {
+  font-size: 25px;
+  font-family: "Roboto";
+  color: rgb( 39, 174, 96 );
+  text-transform: uppercase;
+  line-height: 1.28;
+  text-align: left;
+  position: absolute;
+  left: 226.609px;
+  top: 41.613px;
+  z-index: 29;
+}*/
