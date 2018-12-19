@@ -1,1 +1,3 @@
-$('.sl').slick();
+$('.sl').slick({
+    dots: true,
+});
