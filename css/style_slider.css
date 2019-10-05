@@ -1,8 +1,7 @@
 /*color for header and footer*/
 /*color for logo text; reference :hover*/
 /*color for nav text*/
-footer {
-  width: 100%;
-  background-color: #2c3e50;
+main .sl .sl__slide img {
+  width: 142%;
 }
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=style_slider.css.map */

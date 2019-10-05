@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAiB,+BAA+B;AAC/B,yCAAyC;AAC5C,sBAAsB;ADApC,AAGY,IAHR,CACA,GAAG,CACC,UAAU,CACN,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "../scss/style_slider.scss",
+        "../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "style_slider.css"
+}
