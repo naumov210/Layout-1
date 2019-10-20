@@ -10,6 +10,11 @@ body {
   min-width: 32rem;
 }
 
+body h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 body ul {
   list-style: none;
   padding: 0;

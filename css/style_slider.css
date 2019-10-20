@@ -1,7 +1,57 @@
 /*color for header and footer*/
 /*color for logo text; reference :hover*/
 /*color for nav text*/
+main .sl .sl__slide {
+  position: relative;
+}
+
 main .sl .sl__slide img {
   width: 142%;
+}
+
+main .sl .sl__slide h2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  top: -13rem;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  margin: 0 auto;
+  text-shadow: #fff 1.5px 1.5px 0.5px;
+}
+
+main .sl .sl__slide .go {
+  display: block;
+  position: relative;
+  top: -10rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #22ae60;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: 0.06vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  main .sl .sl__slide h2 {
+    top: -20rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 667px) {
+  main .sl .sl__slide h2 {
+    top: -25rem;
+  }
 }
 /*# sourceMappingURL=style_slider.css.map */

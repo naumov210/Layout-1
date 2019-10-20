@@ -1,0 +1,41 @@
+.cutlery {
+  background: url("/images/cutlery.jpg") no-repeat 50% 100%;
+  background-size: cover;
+}
+
+.cutlery .myform {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+.cutlery .myform h4 {
+  padding: 0;
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.cutlery .myform form {
+  width: 100%;
+}
+
+.cutlery .myform form input,
+.cutlery .myform form select {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-top: 0.8vw;
+  font-size: 1.7em;
+  border-radius: 5px;
+  border-top: 1px solid;
+  border-left: none;
+  padding: 0.5rem 0.5rem;
+}
+/*# sourceMappingURL=style_form.css.map */

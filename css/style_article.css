@@ -1,0 +1,30 @@
+.about_you {
+  margin-top: -3rem;
+  padding: 0 2rem;
+}
+
+.about_you article h3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.about_you article p {
+  padding: 1rem 0;
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: left;
+}
+
+.about_you .photo .your_photo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 2rem  0 1rem;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=style_article.css.map */

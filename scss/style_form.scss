@@ -1,0 +1,39 @@
+.cutlery {
+    background: url("/images/cutlery.jpg") no-repeat 50% 100%;
+    background-size: cover;
+
+    .myform {
+        width: 50%;
+        margin: 0 auto;
+        // padding: 3rem 0;
+        background-color: #fff;
+        border: 1px solid;
+
+        h4 {
+            padding: 0;
+            margin: 0 auto;
+            width: fit-content;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 3rem;
+        }
+
+        form {
+            width: 100%;
+
+            input,
+            select {
+                width: 100%;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                display: block;
+                margin-top: 0.8vw;
+                font-size: 1.7em;
+                border-radius: 5px;
+                border-top: 1px solid;
+                border-left: none;
+                padding: 0.5rem 0.5rem;
+            }
+        }
+    }
+}

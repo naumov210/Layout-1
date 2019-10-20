@@ -16,6 +16,11 @@ body {
     max-width: 100%;
     min-width: 32rem;
 
+    h3{
+        font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+    }
+
     ul{
         // обнулить у всех или точечно ? у хедера ?
         list-style: none;
